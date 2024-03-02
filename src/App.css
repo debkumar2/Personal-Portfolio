@@ -1,0 +1,22 @@
+body {
+  background-color: #000;
+  color: white;
+  font-family: "League Spartan", sans-serif;
+}
+
+.running-text {
+  display: block;
+  overflow: hidden;
+  animation: typing-text steps(40) 3s infinite;
+  text-wrap: nowrap;
+}
+
+@keyframes typing-text {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
